@@ -22,6 +22,7 @@ parisDateElement.innerHTML = parisTime.format("MMMM Do YYYY");
 parisTimeElement.innerHTML = parisTime.format("h:mm:ss [<small>]A[</small>]");
 
   }
+
 }
 
 function updateCity(event) {
@@ -44,7 +45,7 @@ function updateCity(event) {
 }
         
      updateTime();
-     setInterval(updateTime,updateCity, 1000);
+     setInterval(updateTime,1000)
 
      
     
